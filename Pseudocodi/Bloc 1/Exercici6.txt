@@ -1,0 +1,26 @@
+// Exercici 6
+funció principal() 
+    elecció = menú()
+    mentre elecció != 0
+        si elecció == 1
+            imprimir "Introdueix un nombre enter:"
+            llegir n
+            decimalBinari(n)
+        sinó si elecció == 2
+            imprimir "Introdueix un nombre binari:"
+            llegir n
+            binariDecimal(n)
+        sinó si elecció == 3
+            imprimir "Introdueix un nombre:"
+            llegir n
+            imprimir esParell(n)
+        sinó si elecció == 4
+            imprimir "Introdueix un nombre enter n:"
+            llegir n
+            primersNombresParells(n)
+        sinó
+            imprimir "Opció no vàlida"
+        fi
+        elecció = menú()
+    fi
+fi

@@ -1,0 +1,11 @@
+// Exercici 5
+funció menú() 
+    imprimir "Escull una de les següents opcions:"
+    imprimir "1. Decimal a binari"
+    imprimir "2. Binari a decimal"
+    imprimir "3. És parell?"
+    imprimir "4. Calcular nombres parells entre 0 i n"
+    imprimir "0. Sortir"
+    llegir elecció
+    retornar elecció
+fi

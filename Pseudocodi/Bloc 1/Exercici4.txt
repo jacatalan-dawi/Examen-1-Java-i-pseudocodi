@@ -1,0 +1,8 @@
+// Exercici 4
+funció primersNombresParells(n: enter) 
+    per i = 0 fins a n
+        si i % 2 == 0
+            imprimir i
+        fi
+    fi
+fi

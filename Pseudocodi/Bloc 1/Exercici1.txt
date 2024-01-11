@@ -1,0 +1,8 @@
+// Primer bloc
+// Exercici 1
+funció decimalBinari(n: enter) 
+    mentre n > 0
+        imprimir n % 2
+        n = n / 2
+    fi
+fi

@@ -1,0 +1,12 @@
+// Exercici 2
+funció binariDecimal(n: llarg) 
+    decimal = 0
+    base = 1
+    mentre n
+        últim_dígit = n % 10
+        n = n / 10
+        decimal += últim_dígit * base
+        base = base * 2
+    fi
+    imprimir decimal
+fi

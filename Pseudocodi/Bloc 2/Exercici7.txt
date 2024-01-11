@@ -1,0 +1,11 @@
+// Segon bloc
+// Exercici 7
+funció volumCilindre(radi: enter, longitud: enter) 
+    volum = 3.14 * radi * radi * longitud
+    retornar volum
+fi
+
+funció volumPrismaRectangular(llargada: enter, amplada: enter, alçada: enter) 
+    volum = llargada * amplada * alçada
+    retornar volum
+fi

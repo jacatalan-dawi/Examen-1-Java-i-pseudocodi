@@ -1,0 +1,8 @@
+// Exercici 3
+funció esParell(n: enter) 
+    si n % 2 == 0
+        retornar veritat
+    sinó
+        retornar fals
+    fi
+fi

@@ -1,0 +1,30 @@
+// Exercici 8
+funció principal() 
+    imprimir "Què transportaràs? 1. Líquids 2.Sòlids"
+    llegir elecció
+    mentre elecció != 1 i elecció != 2
+        imprimir "Opció no vàlida"
+        imprimir "Què transportaràs? 1. Líquids 2.Sòlids"
+        llegir elecció
+    fi
+    imprimir "Quin és el volum que s'ha d'enviar, en metres cúbics?"
+    llegir volum
+    si elecció == 1
+        imprimir "Quants centímetres de radi té la cisterna?"
+        llegir radi
+        imprimir "Quants centímetres de longitud té la cisterna?"
+        llegir longitud
+        capacitat = volumCilindre(radi, longitud)
+    sinó
+        imprimir "Quina és la longitud dels tres costats del prisma en centímetres?"
+        llegir llargada
+        llegir amplada
+        llegir alçada
+        capacitat = volumPrismaRectangular(llargada, amplada, alçada)
+    fi
+    imprimir "El camió té una capacitat de", capacitat, "centímetres cúbics."
+    volum_en_m3 = capacitat / 1000000
+    imprimir "Es poden ajustar", volum_en_m3, "metres cúbics."
+    viatges = volum / volum_en_m3
+    imprimir "Necessitaràs fer", viatges, "viatges."
+fi
